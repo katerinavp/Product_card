@@ -1,10 +1,7 @@
 package com.example.test_lm;
 
-import android.os.Build;
-
-import androidx.annotation.RequiresApi;
-
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -16,7 +13,7 @@ public class ProductAction {
 
     public String getNameProduct(Product product) {
 
-        String[] nameProducts = product.displayedName.displayedName.value;
+        List<String> nameProducts = product.displayedName.displayedName.value;
         for (String name : nameProducts) {
             return name;
         }
@@ -44,7 +41,6 @@ public class ProductAction {
         return numberBuilder.toString();
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
     public String maxCount() {
         int maxValue = dataShop.values().stream().max(Integer::compare).orElse(null);
         int keyMaxValue = 0;

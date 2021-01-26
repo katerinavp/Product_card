@@ -1,10 +1,12 @@
 package com.example.test_lm;
 
+import java.util.List;
+
 public class Value {
-    String[] value;
+    List<String> value;
     String description;
 
-    public Value(String[] value, String description) {
+    public Value(List<String> value, String description) {
         this.value = value;
         this.description = description;
     }
