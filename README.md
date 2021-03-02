@@ -23,5 +23,5 @@
 • Сохранение состояние при повороте экрана с помощью ViewModel,  
 • Десериализация данных  с помощью библиотеки Gson.  
 
-<https://github.com/katerinavp/Product_card/blob/master/pictures/Screenshot_empty.jpg" width="200" height="400"> <https://github.com/katerinavp/Product_card/blob/master/pictures/Screenshot_infoProduct.jpg" width="200" height="400">  
-<https://github.com/katerinavp/Product_card/blob/master/pictures/Screenshot_changeOrientation.jpg" width="400" height="200">
+<img src="https://github.com/katerinavp/Product_card/blob/master/pictures/Screenshot_empty.jpg" width="200" height="400"> <img src="https://github.com/katerinavp/Product_card/blob/master/pictures/Screenshot_infoProduct.jpg" width="200" height="400">  
+<img src="https://github.com/katerinavp/Product_card/blob/master/pictures/Screenshot_changeOrientation.jpg" width="400" height="200">
